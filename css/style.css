@@ -1,0 +1,139 @@
+:root{
+	/* fonts */
+	--main-font-family: 'Roboto', sans-serif;
+	--second-font-family: 'Raleway', sans-serif;
+	/* colors */
+	--main-dark-color: #212121;
+	--main-light-color: #757575;
+	--accent-color: #2196F3;
+	--header-one-color: #FFFFFF;
+	--main-background-color: #2F303A;
+	--second-background-color: #F5F4FA;
+	--footer-text-color: #FFFFFF99;
+	
+
+}
+
+body{
+font-family: var(--main-font-family);
+font-size: 14px ;
+color: var(--main-dark-color);
+font-style: normal;
+font-weight: 400;
+}
+
+.visually-hidden{
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	margin: -1px;
+}
+
+.link{
+	text-decoration: none;
+	color: inherit;
+}
+	
+.list {
+	list-style: none;}
+
+	/* button */
+.button{
+	border: none;
+	background-color: transparent;
+	color:inherit;
+	font-family: inherit;
+	cursor: pointer;
+	text-align: center;
+	font-size: 16px;
+}
+
+.button.prime {
+	background-color: var(--accent-color);
+	color: var(--header-one-color);
+	font-weight: 700;
+	height: 30px;
+	}
+.button.portfolio{
+	background-color: var(--second-background-color);
+	color: var(--main-dark-color);
+	font-weight: 500;
+}
+
+
+
+
+/* header */
+
+.logotype{
+	color: var(--accent-color);
+}
+.logo{
+	color:#000000;
+	font-family: var(--second-font-family);
+	text-decoration: none;
+	}
+	.logo:hover,
+	.logo:focus{
+		color: var(--accent-color);
+	}
+	
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+	color: var(--accent-color);
+}
+
+.address-list .link:hover,
+.address-list .link:focus{
+color: var(--accent-color);
+}
+
+/* main */
+
+/* hero */
+.hero{
+	background-color: var(--main-background-color);
+}
+.hero-title{
+	color: var(--header-one-color);
+	font-weight: 900;
+}
+
+/* section */
+
+.section-title{
+	color: var(--main-dark-color);
+	font-family: var(--main-font-family);
+	font-weight: 700;
+}
+
+/* особенности */
+.features-list .description{
+	color: var(--main-light-color);
+}
+
+/* чем мы занимаемся */
+
+
+/* наша команда */
+.team-list .description{
+	color: var(--main-light-color);
+
+}
+
+
+
+
+
+
+
+
+
+
