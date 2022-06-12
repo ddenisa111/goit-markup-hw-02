@@ -67,11 +67,16 @@ letter-spacing: 0.03em;
 	align-items: center;
 	text-align: center;
 	letter-spacing: 0.06em;
+	display: block;
+
+
+
 	}
 .button.portfolio{
 	background-color: var(--second-background-color);
 	color: var(--main-dark-color);
 	font-weight: 500;
+	display: block;
 }
 
 
@@ -126,6 +131,7 @@ color: var(--accent-color);
 /* hero */
 .hero{
 	background-color: var(--main-background-color);
+	
 }
 .hero-title{
 	color: var(--header-one-color);
@@ -154,6 +160,7 @@ text-transform: uppercase;
 .features-list .title{
 	font-weight: 700;
 	line-height: 16px;
+	font-size: 14px;
 	text-transform: uppercase;
 }
 .features-list .description{
@@ -193,6 +200,9 @@ text-transform: uppercase;
 	color: var(--header-one-color);
 	line-height: 24px;
 }
+.footer .address-list{
+font-style: normal;
+}
 .footer-link{
 	color: var(--footer-text-color);
 	line-height: 24px;
@@ -206,9 +216,6 @@ text-transform: uppercase;
 	color: var(--header-one-color);
 	background-color: var(--accent-color);
 }
-
-
-
 
 .example-title{
 	font-weight: 700;
