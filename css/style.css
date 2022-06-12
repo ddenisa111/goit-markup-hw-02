@@ -10,6 +10,8 @@
 	--main-background-color: #2F303A;
 	--second-background-color: #F5F4FA;
 	--footer-text-color: #FFFFFF99;
+	--header-logo-color: #000000;
+
 	
 
 }
@@ -72,10 +74,10 @@ font-weight: 400;
 /* header */
 
 .logotype{
-	color: var(--accent-color);
+	color: var(--header-logo-color);
 }
 .logo{
-	color:#000000;
+	color: var(--accent-color);
 	font-family: var(--second-font-family);
 	text-decoration: none;
 	}
@@ -127,6 +129,14 @@ color: var(--accent-color);
 	color: var(--main-light-color);
 
 }
+
+/* footer */
+
+.footer-logotype{
+	color: var(--header-one-color);
+}
+
+
 
 
 
