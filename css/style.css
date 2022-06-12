@@ -23,6 +23,16 @@ color: var(--main-dark-color);
 font-style: normal;
 font-weight: 400;
 letter-spacing: 0.03em;
+background-color: var(--header-one-color);
+}
+
+.container{
+	width: 1170px;
+	margin-right: auto;
+	margin-left: auto;
+	
+
+	outline: 2px solid orangered;
 }
 
 .visually-hidden{
