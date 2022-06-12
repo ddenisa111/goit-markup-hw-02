@@ -91,11 +91,19 @@ font-weight: 400;
 .site-nav .link:focus{
 	color: var(--accent-color);
 }
+.site-nav .link.current{
+	color: var(--accent-color);
+}
+
+.address-list .link {
+	color: var(--main-light-color);
+}
 
 .address-list .link:hover,
 .address-list .link:focus{
 color: var(--accent-color);
 }
+
 
 /* main */
 
@@ -132,9 +140,24 @@ color: var(--accent-color);
 
 /* footer */
 
+.footer{
+	background-color: var(--main-background-color);
+}
 .footer-logotype{
 	color: var(--header-one-color);
 }
+.footer-link-address{
+	color: var(--header-one-color);
+}
+.footer-link{
+	color: var(--footer-text-color);
+}
+
+
+/*стили для portfolio.html */
+
+
+
 
 
 
