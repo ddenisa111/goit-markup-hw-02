@@ -11,7 +11,7 @@
 	--second-background-color: #F5F4FA;
 	--footer-text-color: #FFFFFF99;
 	--header-logo-color: #000000;
-
+	--portfolio-bb-color:rgba(238, 238, 238, 1);
 	
 
 }
@@ -125,6 +125,10 @@ color: var(--accent-color);
 }
 
 /* особенности */
+
+.features-list .title{
+	font-weight: 700;
+}
 .features-list .description{
 	color: var(--main-light-color);
 }
@@ -133,11 +137,15 @@ color: var(--accent-color);
 
 
 /* наша команда */
+
+.team-list .title{
+	font-weight: 500;
+	font-size: 16px;
+}
 .team-list .description{
 	color: var(--main-light-color);
-
+	font-size: 16px;
 }
-
 /* footer */
 
 .footer{
@@ -160,6 +168,10 @@ color: var(--accent-color);
 .filter-list .button:focus{
 	color: var(--accent-color);
 }
+
+
+
+
 .example-title{
 	font-weight: 700;
 }
