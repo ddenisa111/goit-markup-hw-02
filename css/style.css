@@ -156,6 +156,17 @@ color: var(--accent-color);
 
 /*стили для portfolio.html */
 
+.filter-list .button:hover,
+.filter-list .button:focus{
+	color: var(--accent-color);
+}
+.example-title{
+	font-weight: 700;
+}
+.example-description{
+	font-weight: 400;
+	color: var(--main-light-color);
+}
 
 
 
