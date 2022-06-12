@@ -68,11 +68,9 @@ letter-spacing: 0.03em;
 	text-align: center;
 	letter-spacing: 0.06em;
 	display: block;
-
-
-
 	}
-.button.portfolio{
+
+	.button.portfolio{
 	background-color: var(--second-background-color);
 	color: var(--main-dark-color);
 	font-weight: 500;
@@ -111,18 +109,18 @@ letter-spacing: 0.03em;
 }
 .site-nav .link.current{
 	color: var(--accent-color);
+} 
+
+.contacts-list .link{
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: var(--main-light-color);
 }
 
-.address-list .link {
-	color: var(--main-light-color);
-	font-weight: 500;
-	line-height: 16px;
-	letter-spacing: 0.02em;
-}
-
-.address-list .link:hover,
-.address-list .link:focus{
-color: var(--accent-color);
+.contacts-list .link:hover,
+.contacts-list .link:focus{
+	color: var(--accent-color);
 }
 
 
@@ -138,9 +136,9 @@ color: var(--accent-color);
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 60px;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
 }
 
 /* section */
@@ -196,17 +194,25 @@ text-transform: uppercase;
 .footer-logotype{
 	color: var(--header-one-color);
 }
+
+.footer-link{
+	color: var(--footer-text-color);
+	line-height: 24px;
+	
+}
 .footer-link-address{
 	color: var(--header-one-color);
 	line-height: 24px;
 }
 .footer .address-list{
-font-style: normal;
+font-style: normal;}
+
+.address-list .link:hover,
+.address-list .link:focus{
+color: var(--accent-color);
 }
-.footer-link{
-	color: var(--footer-text-color);
-	line-height: 24px;
-}
+
+
 
 
 /*стили для portfolio.html */
